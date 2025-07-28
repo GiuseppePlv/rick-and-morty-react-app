@@ -1,5 +1,6 @@
 {
-  "name": "swapi-app",
+  "homepage": "https://github.com/GiuseppePlv/rick-and-morty-react-app",
+  "name": "rick-and-morty-react-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,11 +8,14 @@
     "dev": "npx vite --port=4000",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "axios": "^1.11.0",
     "bootstrap": "^5.3.7",
+    "gh-pages": "^6.3.0",
     "react": "^19.1.0",
     "react-bootstrap": "^2.10.10",
     "react-dom": "^19.1.0",
