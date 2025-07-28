@@ -18,13 +18,13 @@ A React application that allows you to explore Rick and Morty characters, episod
 # Getting Started
 Clone the repository
 
-# git clone https://github.com/GiuseppePlv/rick-and-morty-react-app.git
+- git clone https://github.com/GiuseppePlv/rick-and-morty-react-app.git
 
 Install dependencies
-# npm install
+- npm install
 
 Run the app locally
-# npm run dev
+- npm run dev
 
 Open http://localhost:4000 in your browser
 
