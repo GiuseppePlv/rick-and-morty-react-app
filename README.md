@@ -1,12 +1,31 @@
-# React + Vite
+# Rick and Morty Multi-API Viewer | React App with Filters &amp; Pagination
+![Screenshot](./demo.png?raw=true)
+A React application that allows you to explore Rick and Morty characters, episodes, and locations using the official Rick and Morty API (https://rickandmortyapi.com/). Features dynamic filters and pagination for easy and fast browsing.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Key Features
+- View characters, episodes, and locations from the Rick and Morty API
+- Advanced filters for searching (e.g., by name, status, species, etc.)
+- Pagination to navigate through results smoothly
+- Responsive UI built with React and Bootstrap
 
-Currently, two official plugins are available:
+ # Technologies Used
+- Vite
+- React
+- React Bootstrap
+- Rick and Morty API
+- JavaScript (ES6+)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Getting Started
+Clone the repository
 
-## Expanding the ESLint configuration
+# git clone https://github.com/GiuseppePlv/rick-and-morty-react-app.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install dependencies
+# npm install
+
+Run the app locally
+# npm run dev
+
+Open http://localhost:4000 in your browser
+
+
